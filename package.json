@@ -1,0 +1,25 @@
+{
+  "name": "billscan",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img src=\"https://dl.dropboxusercontent.com/s/9sbp8u14x290gcv/billscan-logo-dark.svg?dl=0\" alt=\"BillScan\" height=\"75\"> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramontip/BillScan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramontip/BillScan/issues"
+  },
+  "homepage": "https://github.com/ramontip/BillScan#readme",
+  "dependencies": {
+    "@kurkle/color": "^0.1.9",
+    "bootstrap": "^5.1.3",
+    "luxon": "^2.1.1",
+    "sass": "^1.43.2"
+  }
+}

@@ -1,0 +1,282 @@
+/*
+ * Customize bootstrap elements
+ *
+ * after changes run this command in terminal:
+ * sass src/main/sass/bootstrap.scss src/main/resources/static/css/bootstrap.css
+ *
+ */
+
+// Load dependencies
+@import "../../../node_modules/bootstrap/scss/functions";
+
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$white: #ffff;
+$primary: #29296C;
+$secondary: #000051;
+$success: #198754;
+$info: #A6A6C2;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #A6A6C2;
+$dark: #212529;
+$light-gray: #fbfbfb;
+$body-bg: #f1f1f6;
+
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/grid";
+
+body {
+  letter-spacing: 0.5px !important;
+}
+
+input#inputZip::-webkit-inner-spin-button,
+input#inputZip::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+a:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bi {
+  margin-right: 0.4em !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.text-bs-primary-dark {
+  color: #29296C;
+}
+
+.bs-pt-4-5 {
+  padding-top: 2.25rem !important;
+}
+
+.bs-bar-shadow {
+  box-shadow: 0 1px 0 0 #ebebeb !important;
+}
+
+.bs-box-shadow {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.bs-background-pattern {
+  width: 100%;
+  background-image: url('../img/background-pattern.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.bs-btn {
+  padding: 0.5rem !important;
+}
+
+.bs-form {
+  border: none !important;
+}
+
+.bs-form-control {
+  display: block !important;
+  width: 100% !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #212529 !important;
+  background-clip: padding-box !important;
+  border: none !important;
+  border-radius: 0 !important;
+  appearance: none !important;
+  outline: none !important;
+  margin-bottom: 0.5rem !important;
+  border-radius: 0.2rem !important;
+}
+
+.bs-form-auth {
+  width: 100%;
+  max-width: 350px;
+  min-width: 300px !important;
+  padding: 1.25rem;
+  margin: 0 auto;
+  color: #212529;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF !important;
+  border-radius: 0 !important;
+}
+
+.bs-form {
+  width: 100%;
+  max-width: 380px;
+  min-width: 300px !important;
+  padding: 1.25rem;
+  margin: 0 auto;
+  color: #212529;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bs-form .bs-form-heading,
+.bs-form .checkbox {
+  margin-bottom: 10px;
+}
+
+.bs-form .checkbox {
+  font-weight: 400;
+}
+
+.bs-form .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 1.625rem 0.75rem 0.625rem 0.75rem !important;
+  font-size: 16px;
+}
+
+.bs-form-search {
+  height: 46px;
+}
+
+.bs-form-warning {
+  background-color: #fff3cd !important;
+}
+
+.bs-form .bs-button-delete {
+  padding: 1.125rem 1rem 1.125rem 1rem !important;
+}
+
+.form-floating > .form-control, .form-floating > .form-select {
+  height: auto !important;
+}
+
+.bs-sidebar {
+  width: 250px;
+}
+
+.bs-sidebar-header {
+  background-color: #29296c;
+  height: 72px;
+}
+
+.bs-footer {
+  font-size: 0.8rem !important;
+}
+
+.bs-dashboard-member {
+  height: 2.5em;
+  width: 2.5em;
+  line-height: 2.5em;
+  background-color: #000051;
+  text-align: center;
+}
+
+.bs-dashboard-member-small {
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  background-color: #000051;
+  text-align: center;
+}
+
+.bs-content {
+  height: calc(100% - 146px);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.bs-content::-webkit-scrollbar {
+  display: none;
+}
+
+.bs-warning-text {
+  background-color: #ffebee;
+  font-size: small;
+}
+
+.bs-toast {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 10;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+.bs-thumbnail {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-attachment: local;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: solid;
+  border-color: grey;
+  border-width: medium;
+}
+
+.bs-thumbnail-small {
+  width: 2rem;
+  height: 2rem;
+  background-attachment: local;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: solid;
+  border-color: grey;
+  border-width: medium;
+}
+
+.bs-image-scroll-container {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.bs-price-container {
+  height: 230px;
+}
+
+.bs-stats-placeholder {
+  width: 100%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+$custom-colors: (
+        "bs-gray": #EBEBEB,
+        "bs-gray-dark": #B3B3B3,
+        "bs-transparent08": #ffffff08,
+        "bs-page-bg": #F1F1F6,
+        "bs-red-orange": #F44335,
+        "bs-darkviolett": #000051,
+        "bs-blue-button": #345eff,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
