@@ -37,17 +37,17 @@ werden.
 
 ### Voraussetzungen
 
-- Java und Kotlin installiert
-- Gradle und npm installiert
-- IDE (IntelliJ IDEA) mit Kotlin Erweiterung installiert
-- Docker Desktop installiert und Docker Hub Account eingerichtet
-- Datenbankserver und MySQL-Datenbank verfügbar
-- Mailserver verfügbar
-- Git installiert
+- Java und Kotlin
+- Gradle und npm
+- IDE (IntelliJ IDEA) mit Kotlin Erweiterung
+- Docker Desktop und Docker Hub Account
+- Datenbankserver und MySQL-Datenbank
+- Mailserver
+- Git Installation
 
 ### Installation
 
-1. Lokale Kopie des GitHub-Repositories erstellen
+1. Aktuellen Release [herunterladen](https://github.com/ramontip/BillScan/releases/latest)
 2. Projektordner mit IntelliJ IDEA öffnen, `build.gradle.kts` öffnen und Gradle Dependencies installieren
 3. npm Dependencies mit dem Befehl `npm install` installieren
 4. `src/main/resources/application.properties` öffnen und Datenbank- sowie Mailserver-Konfiguration anpassen
