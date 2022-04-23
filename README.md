@@ -9,7 +9,8 @@ Mit BillScan können Rechnungen hochgeladen und per Machine Learning ausgewertet
 <p align="center">
   <a href="#team">Team</a> •
   <a href="#architektur">Architektur</a> •
-  <a href="#anleitung">Anleitung</a>
+  <a href="#anleitung">Anleitung</a> •
+  <a href="#screenshots">Screenshots</a>
 </p>
 
 ## Team
@@ -64,6 +65,22 @@ werden.
 3. Docker Image in Docker Hub hochladen
 4. Docker Hub mit Azure Web App Service verknüpfen
 5. Eigene Domain mit Web App Service verknüpfen und SSL-Zertifikat erstellen
+
+## Screenshots
+
+![home](https://user-images.githubusercontent.com/50173436/164891577-fed44b4c-5a56-4b33-823d-0e5d1ccb9580.png)
+
+![dashboard](https://user-images.githubusercontent.com/50173436/164891575-3967d79d-158c-4ce3-8a4d-404e03443771.png)
+
+![bill-upload](https://user-images.githubusercontent.com/50173436/164891574-b7ab3ab7-a67f-4da5-a7f0-c26e5849d5bd.png)
+
+![bill-check](https://user-images.githubusercontent.com/50173436/164891558-e1d079e0-c526-4053-babc-3ba4a8f0485e.png)
+
+![bill-overview](https://user-images.githubusercontent.com/50173436/164891569-ae1c7e2f-542e-442c-9513-a87d8f8731c3.png)
+
+![expenses](https://user-images.githubusercontent.com/50173436/164891576-08f2c4e5-59a8-4dba-ba24-23c12e69f40b.png)
+
+![search](https://user-images.githubusercontent.com/50173436/164891579-d53200a2-612e-4f7c-9049-fa2ecdeda33e.png)
 
 ---
 > FH Joanneum, Informationsmanagement (IMA19), BUEPA
