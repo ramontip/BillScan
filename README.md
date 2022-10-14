@@ -60,11 +60,12 @@ werden.
 
 ### Deployment
 
-1. Docker Image mit dem Befehl `docker build -t dockerimage .` erstellen
-2. Docker Image mit dem Befehl `docker run -p 8020:8020 dockerimage` ausführen
-3. Docker Image in Docker Hub hochladen
-4. Docker Hub mit Azure Web App Service verknüpfen
-5. Eigene Domain mit Web App Service verknüpfen und SSL-Zertifikat erstellen
+1. Projekt mit dem Befehl `gradlew clean build` builden
+2. Docker Image mit dem Befehl `docker build -t dockerimage .` erstellen
+3. Docker Image mit dem Befehl `docker run -p 8020:8080 dockerimage` ausführen
+4. Docker Image in Docker Hub hochladen
+5. Docker Hub mit Azure Web App Service verknüpfen
+6. Optional: Custom Domain mit Web App Service verknüpfen und SSL-Zertifikat erstellen
 
 ## Screenshots
 
